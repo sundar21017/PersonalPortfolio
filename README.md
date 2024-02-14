@@ -1,20 +1,20 @@
 # Cleanfolio
 
-Cleanfolio is a portfolio template built with React. However, if you prefer a template built with HTML, CSS, and JavaScript, you can check out [Cleanfolio Minimal](https://github.com/rajshekhar26/cleanfolio-minimal).
+Cleanfolio is a portfolio template built with React. However, if you prefer a template built with HTML, CSS, and JavaScript, you can check out [Cleanfolio Minimal].
 
 ## Preview
 
-[![Imgur](https://imgur.com/FwDMNEM.gif)](https://rajshekhar26.github.io/cleanfolio)
+[![Imgur](https://imgur.com/FwDMNEM.gif)](https://sundar21017.github.io/cleanfolio)
 
-[Live Demo](https://rajshekhar26.github.io/cleanfolio)
+[Live Demo](https://sundar21017.github.io/PersonalPortfolio)
 
 ## Instructions
 
 ### Setup
 
 ```shell
-git clone https://github.com/rajshekhar26/cleanfolio
-cd cleanfolio
+git clone https://github.com/sundar21017/PersonalPortfolio.git
+cd PersonalPortfolio
 ```
 
 If you use [nvm](https://github.com/nvm-sh/nvm) or [fnm](https://github.com/Schniz/fnm), execute:
@@ -50,7 +50,7 @@ yarn start
 
 - In the `package.json` file, update:
 
-`"homepage": "https://rajshekhar26.github.io/cleanfolio"`
+`"homepage": "https://sundar21017.github.io/PersonalPortfolio"`
 
 to `"homepage": "https://yourusername.github.io"`.
 
