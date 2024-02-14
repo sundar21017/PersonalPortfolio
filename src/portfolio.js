@@ -10,9 +10,9 @@ const about = {
   role: 'Full Stack Developer',
   description:
     'Highly skilled and experienced Full Stack Developer with 3 years of hands-on expertise in designing, developing, and implementing complex web applications. Proficient in both front-end and back-end technologies, adept at translating client requirements into scalable, reliable software solutions. Proven track record of collaborating with cross-functional teams to deliver projects on time and within budget.',
-  resume: 'src/assets/Resume.pdf',
+  resume: 'https://drive.google.com/file/d/1_20Rlcz0oIPkS5ybenPw8Ju7fYQFvwtx/view?usp=sharing',
   social: {
-    linkedin: 'www.linkedin.com/in/sundara-pandian-85ba0a19b',
+    linkedin: 'https://linkedin.com/in/sundara-pandian-85ba0a19b',
     github: 'https://github.com/sundar21017',
   },
 }
@@ -50,7 +50,7 @@ const projects = [
       'Our revolutionary PaisaNow is a marketplace application that ensures a complete phygital platform. It streamlines onboarding processes, verification, and application through a distributed ledger based on blockchain technology, ensuring security and efficiency in the lending process',
     stack: ['React', 'Javascript', 'Php'],
     sourceCode: '',
-    livePreview: 'https://getitnow.digital/',
+    livePreview: 'https://kapiital.com/index.php/paisanow-landing/',
   },
 ]
 

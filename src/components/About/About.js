@@ -8,8 +8,8 @@ import './About.css'
 const About = () => {
   const { name, role, description, resume, social } = about
 
-  const handleDownload = () => {
-    window.open(resume, '_blank'); // Opens the URL in a new tab/window
+  const handleDownload = (val) => {
+      window.open(val, '_blank'); // Opens the URL in a new tab/window
   };
 
   return (
@@ -25,7 +25,7 @@ const About = () => {
 
       <div className='about__contact center'>
         {resume && (
-          <span type='button' className='btn btn--outline' onClick={handleDownload}>
+          <span type='button' className='btn btn--outline' onClick={() => handleDownload(resume)}>
             Resume
           </span>
         )}
@@ -33,23 +33,24 @@ const About = () => {
         {social && (
           <>
             {social.github && (
-              <a
+              <span
                 href={social.github}
                 aria-label='github'
                 className='link link--icon'
+                onClick={() => handleDownload(social.github)}
               >
                 <GitHubIcon />
-              </a>
+              </span>
             )}
 
             {social.linkedin && (
-              <a
-                href={social.linkedin}
+              <span
                 aria-label='linkedin'
                 className='link link--icon'
+                onClick={() => handleDownload(social.linkedin)}
               >
                 <LinkedInIcon />
-              </a>
+              </span>
             )}
           </>
         )}
