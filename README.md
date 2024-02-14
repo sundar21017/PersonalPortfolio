@@ -40,7 +40,7 @@ yarn start
 
 - Open the `public/index.html` file and replace:
 
-`<title>John Smith</title>` with `<title>Your Name</title>`.
+`<title>Sundar</title>` with `<title>Your Name</title>`.
 
 - Open the `src/portfolio.js` file and make the necessary changes.
 
