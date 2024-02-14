@@ -4,8 +4,6 @@ Cleanfolio is a portfolio template built with React. However, if you prefer a te
 
 ## Preview
 
-[![Imgur](https://imgur.com/FwDMNEM.gif)](https://sundar21017.github.io/cleanfolio)
-
 [Live Demo](https://sundar21017.github.io/PersonalPortfolio)
 
 ## Instructions
